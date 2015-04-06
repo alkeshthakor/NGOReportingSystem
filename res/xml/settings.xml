@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+            android:title="@string/lbl_settig">
+  
+    <EditTextPreference android:key="pref_president"
+        android:title="@string/lbl_president"/>
+    <EditTextPreference android:key="pref_rcc"
+        android:title="@string/lbl_rcc"/>
+    <EditTextPreference android:key="pref_secretory"
+        android:title="@string/lbl_secretory"/>
+ 
+ </PreferenceScreen>

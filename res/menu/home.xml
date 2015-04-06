@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add_projetc"
+        android:title="@string/lbl_new_project"
+        android:showAsAction="always"
+        android:icon="@drawable/add_new_project"/>
+</menu>

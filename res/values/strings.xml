@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">NGO Reporting System</string>
+    <string name="action_settings">Settings</string>
+    <string name="lbl_new_project">New Project</string>
+    <string name="title_activity_new_project">New Project</string>
+    <string name="title_activity_project_detail">Project Detail</string>
+    <string name="title_activity_project_edit">Project Edit</string>
+    <string name="lbl_project_detail">Project Details:</string>
+    <string name="lbl_title">Title:</string>
+    <string name="lbl_location">Location:</string>
+    <string name="lbl_chariman">Chiarman:</string>
+    <string name="lbl_date">Date:</string>
+    <string name="lbl_description">Discription:</string>
+    <string name="lbl_imagepath">Select Image:</string>
+    <string name="lbl_clubname">Club Name:</string>
+    <string name="lbl_status">Status:</string>
+    <string name="lbl_modify">Modify:</string>
+    <string name="lbl_last_modify">Last Modify:</string>
+    <string name="lbl_attach_photos">Attachment</string>
+    <string name="lbl_photos">Photos:</string>
+    <string name="lbl_save">Save</string>
+    <string name="lbl_delete">Delete</string>
+    <string name="lbl_ok">OK</string>
+    <string name="lbl_calcel">Cancel</string>
+    <string name="lbl_generate_report">Generate Report</string>
+    <string name="lbl_send_to_server">Send to Server</string>
+    <string name="lbl_pdf_success">Pdf successfully generated</string>
+    <string name="lbl_pdf_fail">Pdf generation fail!</string>
+    <string name="lbl_settig">Setting</string>
+    <string name="lbl_president">President</string>
+    <string name="lbl_rcc">RCC</string>
+    <string name="lbl_secretory">Secretory</string>
+    <string name="lbl_user_id">User Id</string>
+    <string name="lbl_user_id_hint">enter user id</string>
+    <string name="lbl_password">Password</string>
+    <string name="lbl_password_hint">enter password</string>
+    <string name="lbl_login">Login</string>
+    <string name="lbl_changes_password">Changes password</string>
+
+    <string name="lbl_old_pass">Old password</string>
+    <string name="lbl_new_pass">New password</string>
+    <string name="lbl_confirm_pass">Confirm password</string>
+    
+    <color name="theme_color1">#EEEEEE</color>
+    <color name="theme_color2">#DFDFDF</color>
+    <color name="theme_color3">#455A64</color>
+    <color name="color_blue">#0000FF</color>
+    
+    <string name="title_activity_custom_pdf_viewer">CustomPdfViewerActivity</string>
+    <string name="title_activity_splash">NGO Reporting</string>
+    <string name="title_activity_login">NGO Login</string>
+    <string name="title_activity_changes_password">Change Password </string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

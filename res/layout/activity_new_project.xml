@@ -1,0 +1,108 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/theme_color1"
+    tools:context=".NewProjectActivity" >
+    
+    <TextView style="@style/style_TextView_black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="@string/lbl_project_detail"/>
+    
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView style="@style/style_TextView_black"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/lbl_title"/>
+		    <EditText 
+		        android:id="@+id/titleEditText"
+		        style="@style/style_EditText"/>
+		    
+		    <TextView style="@style/style_TextView_black"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/lbl_location"/>
+		    <EditText 
+		        android:id="@+id/locationEditText"
+		        style="@style/style_EditText"/>
+		    
+		    <TextView style="@style/style_TextView_black"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/lbl_chariman"/>
+		    <EditText 
+		        android:id="@+id/chiarmanEditText"
+		        style="@style/style_EditText"/>
+		    
+		    <TextView style="@style/style_TextView_black"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/lbl_clubname"/>
+		    <EditText 
+		        android:id="@+id/clubnameEditText"
+		        style="@style/style_EditText"/>
+		    
+		    <TextView style="@style/style_TextView_black"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/lbl_date"/>
+		    <EditText 
+		        android:id="@+id/dateEditText"
+		        style="@style/style_EditText"
+		        android:focusable="false"
+		        android:inputType="date|none"/>
+		    
+		    <TextView style="@style/style_TextView_black"
+		        android:layout_marginTop="10dp"
+		        android:text="@string/lbl_description"/>
+		    <EditText 
+		        android:id="@+id/discriptionEditText"
+		        style="@style/style_EditText"
+		        android:layout_height="70dp"
+		        android:inputType="textMultiLine"
+		        android:lines="5"
+		        android:maxLength="2050"
+		        android:scrollbars="vertical"
+		        android:gravity="top|left"/>
+            
+	  <LinearLayout android:layout_width="match_parent"
+	      android:layout_height="wrap_content"
+	      android:gravity="center_horizontal"
+	      android:layout_marginTop="10dp"
+	      android:orientation="horizontal">
+	        <Button 
+		        android:id="@+id/saveProjectBT"
+		        android:layout_width="145dp"
+		        android:layout_height="wrap_content"
+		        android:layout_marginRight="3dp"
+		        android:text="@string/lbl_save"/>
+	         <Button 
+		        android:id="@+id/attacPhotosBT"
+		        android:layout_width="145dp"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="3dp"
+		        android:text="@string/lbl_attach_photos"/>
+	         
+	  </LinearLayout>
+		    
+	  <HorizontalScrollView 
+	      android:layout_width="wrap_content"
+		  android:layout_height="wrap_content">
+		        <LinearLayout 
+			        android:id="@+id/photolistLinearLayout"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:padding="10dp"
+			        android:orientation="horizontal">
+		        
+		    	</LinearLayout>
+		</HorizontalScrollView>
+		   
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
